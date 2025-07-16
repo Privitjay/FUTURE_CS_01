@@ -6,9 +6,8 @@
 | Field             | Details                                      |
 |------------------|----------------------------------------------|
 | **Application**   | Damn Vulnerable Web Application (DVWA)       |
-| **Test Date**     | [Start Date – End Date]                      |
-| **Tested By**     | [Your Name or Team Name]                     |
-| **Environment**   | Localhost / VM / Cloud (e.g., XAMPP, Docker) |
+| **Test Date**     | [11/07/2025 – 11/08/2025]                      |                  |
+| **Environment**   | Hostinger VPS |
 | **Security Level**| Low / Medium / High / Impossible             |
 | **Tools Used**    | Burp Suite, OWASP ZAP, Nikto, curl, etc.     |
 
@@ -35,11 +34,6 @@
 - [x] XSS (Reflected & Stored)  
 - [x] Security Level Validation  
 
-**Out of Scope**
-- OS-level exploitation  
-- Third-party services  
-
----
 
 ## 4. Methodology
 
@@ -47,7 +41,7 @@
 |----------------|-----------------------------------------------------|
 | **Approach**    | Manual testing with automated tool assistance      |
 | **Test Types**  | Penetration Testing, Vulnerability Assessment      |
-| **Tools Used**  | Burp Suite, OWASP ZAP, Nikto, curl, browser devtools |
+| **Tools Used**  | Burp Suite, OWASP ZAP, Nikto, browser devtools |
 | **Security Levels Tested** | Low / Medium / High / Impossible        |
 
 ---
@@ -67,15 +61,21 @@
 
 ---
 
-## 6. Detailed Vulnerability Example
+## 6. Detailed Vulnerabilities
 
-### 🔍 SQL Injection (Authentication Bypass)
+###Nikto
 
-- **Module:** SQL Injection  
-- **Level:** Low  
-- **Payload:** `' OR 1=1--`  
-- **Result:** Access to protected user dashboard  
-- **Mitigation:** Use parameterized queries (e.g., prepared statements)
+I used Nikto to scan for vulnerabilities on the webpage.. 
+Nikto found a login.php databases and config files.
+
+
+### 🔍 Brute Force Login Page
+
+- **Module:** Brute Force  
+- **Level:** Low-Impossible
+- **Payload:** Dictionary Attack
+- **Result:** Login Page accessed  
+- **Mitigation:** Use stronger Password and implement strong password policies
 
 ---
 
