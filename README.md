@@ -68,7 +68,7 @@
 I used Nikto to scan for vulnerabilities on the webpage.. 
 Nikto found a login.php databases and config files.
 
-![Alt text](./images/Nikto.png)
+![Alt text](./images/Nikto.PNG)
 
 
 ### 🔍 Brute Force Login Page
