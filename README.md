@@ -63,7 +63,7 @@
 
 ## 6. Detailed Vulnerabilities
 
-### Nikto
+#### 6.1.1  Nikto
 
 I used Nikto to scan for vulnerabilities on the webpage.. 
 Nikto found a login.php databases and config files.
@@ -71,7 +71,7 @@ Nikto found a login.php databases and config files.
 ![Alt text](./images/Nikto.PNG)
 
 
-### 🔍 Brute Force Login Page
+### 6.2 🔍 Brute Force Login Page
 
 - **Module:** Brute Force  
 - **Level:** Low-Impossible
@@ -79,13 +79,15 @@ Nikto found a login.php databases and config files.
 - **Result:** Login Page accessed  
 - **Mitigation:** Use stronger Password and implement strong password policies
 
-### Hydra
+#### 6.2.1 Hydra
 
 i used hydra a bruteforcing tool to carry out a dictionary attack on the login.php to test for weak credentials if possible.
 
 ![Alt text](./images/Hydra.PNG)
 
 weak creds were found via my dictionary attack and i gained access to the webpage via the login form.
+
+![Alt text](./images/dvwa.PNG)
 
 ---
 
