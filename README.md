@@ -85,7 +85,7 @@ i used hydra a bruteforcing tool to carry out a dictionary attack on the login.p
 
 ![Alt text](./images/Hydra.PNG)
 
-weak creds were found with via my dictionary attack and i gained access to the webpage via the login form.
+weak creds were found via my dictionary attack and i gained access to the webpage via the login form.
 
 ---
 
