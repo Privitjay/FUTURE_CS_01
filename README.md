@@ -63,10 +63,12 @@
 
 ## 6. Detailed Vulnerabilities
 
-###Nikto
+### Nikto
 
 I used Nikto to scan for vulnerabilities on the webpage.. 
 Nikto found a login.php databases and config files.
+
+![Alt text](./images/Nikto.png)
 
 
 ### 🔍 Brute Force Login Page
