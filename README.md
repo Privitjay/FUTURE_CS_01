@@ -79,6 +79,14 @@ Nikto found a login.php databases and config files.
 - **Result:** Login Page accessed  
 - **Mitigation:** Use stronger Password and implement strong password policies
 
+### Hydra
+
+i used hydra a bruteforcing tool to carry out a dictionary attack on the login.php to test for weak credentials if possible.
+
+![Alt text](./images/Hydra.PNG)
+
+weak creds were found with via my dictionary attack and i gained access to the webpage via the login form.
+
 ---
 
 ## 7. Tools Used
