@@ -71,7 +71,7 @@ Nikto found a login.php databases and config files.
 ![Alt text](./images/Nikto.PNG)
 
 
-### 6.2 🔍 Brute Force Login Page
+### 6.2 🛠️🔓 Brute Force Login Page
 
 - **Module:** Brute Force  
 - **Level:** Low-Impossible
@@ -89,6 +89,9 @@ weak creds were found via my dictionary attack and i gained access to the webpag
 
 ![Alt text](./images/dvwa.PNG)
 
+
+### 6.2 🧨 Command Injection
+
 ---
 
 ## 7. Tools Used
@@ -103,13 +106,6 @@ weak creds were found via my dictionary attack and i gained access to the webpag
 
 ---
 
-## 8. Screenshots / Evidence
-
-> (Optional) Add screenshots of:
-> - XSS alert boxes
-> - SQLi results
-> - Shell access from file upload
-> - Request/response payloads
 
 ---
 
