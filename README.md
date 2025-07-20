@@ -57,7 +57,7 @@
 | File Upload Bypass    | File Upload       | High     | ✅        | Confirmed  | Uploaded web shell `.php`         |
 | CSRF                  | CSRF              | Medium   | ✅        | Confirmed  | Admin password reset              |
 | Brute Force           | Brute Force       | Medium   | ✅        | Confirmed  | Weak creds discovered             |
-| Local File Inclusion  | File Inclusion    | High     | ✅        | Confirmed  | Accessed `/etc/passwd`            |
+| Local File Inclusion  | File Inclusion    | High     | ✅        | Confirmed  |Accessed `/etc/passwd,systeminfo`  |
 
 ---
 
