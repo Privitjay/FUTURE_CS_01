@@ -97,7 +97,7 @@ and there i used cat to view /etc/passwd
 
 in similar fashion i accessed the systeminfo when i installed the DVWA on XAMP windows machine 
 
-![Alt text](./images/systeminfo.PNG)
+![Alt text](./images/systeminfo.png)
 
 
 ---
