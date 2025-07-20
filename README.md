@@ -98,8 +98,9 @@ on the cloud i inputed commands like:
 ```bash
 google.com | pwd && whoami 
 ```
-and there i used cat to view /etc/passwd
-
+```bash
+google.com | cat /etc/passwd
+```
 in similar fashion i accessed the systeminfo when i installed the DVWA on XAMP windows machine 
 
 ```bash
