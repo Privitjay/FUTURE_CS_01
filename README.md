@@ -92,10 +92,21 @@ weak creds were found via my dictionary attack and i gained access to the webpag
 
 ### 6.3 🧨 Command Injection
 
-on the cloud i inputed commands like: google.com | pwd && whoami 
+on the cloud i inputed commands like: 
+
+
+```bash
+google.com | pwd && whoami 
+```
 and there i used cat to view /etc/passwd
 
 in similar fashion i accessed the systeminfo when i installed the DVWA on XAMP windows machine 
+
+```bash
+google.com | dir && systeminfo
+```
+
+
 
 ![Alt text](./images/systeminfo.png)
 
