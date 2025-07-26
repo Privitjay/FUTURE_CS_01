@@ -118,6 +118,12 @@ first i tested the login page for a potential sql error with just closing the  s
 ```
 
 ![Alt text](./images/image.png)
+
+```bash
+In easy mode i ran ( 1' OR '1'='1)
+
+![Alt text](./images/image.png)
+```
 ---
 
 ## 7. Tools Used
