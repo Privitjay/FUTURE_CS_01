@@ -144,10 +144,7 @@ i found the number of existing columns by just inputing numbers 1 and i saw the 
 | curl         | HTTP request crafting            |
 | Firefox DevTools | Input/output inspection      |
 
----
 
-
----
 
 ## 9. Recommendations
 
