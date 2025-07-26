@@ -148,6 +148,17 @@ from the devtool i ran the syntax below:
 
 ![Alt text](./images/sqlunionm.png)
 
+#### High Mode
+
+For the high mode on sql section i discovered checking the source code that session id was implemented but the sql syntax was similar to the one of the low mode where i had to escape quotes so i ran a similar syntax 
+
+```bash
+ 1 or 1=1 UNION SELECT user,password from users#
+```
+
+![Alt text](./images/sqlunionh.png)
+
+
 ## 7. Tools Used
 
 | Tool         | Purpose                          |
