@@ -113,6 +113,8 @@ google.com | dir && systeminfo
 
 ### 6.4 🧨 SQL Injection
 
+#### Low Mode
+
 ```bash
 first i tested the login page for a potential sql error with just closing the  syntax | ' and this created the error seen below and this let me know there was an error shown and a possilbe potential for a code injection
 ```
@@ -134,6 +136,17 @@ i found the number of existing columns by just inputing numbers 1 and i saw the 
 ```
 
 ![Alt text](./images/sqlunion.png)
+
+#### Medium Mode
+
+Once again i check the source code in my Devtools and i saw the sqlsyntax and i noticed a filtration methoded added but the sql syntax remains the same but this time the id is not quoted previously i tried to esacpe the quote but this time there was no quote to escape.
+
+from the devtool i ran the syntax below:
+```bash
+ 1 or 1=1 UNION SELECT user,password from users#
+```
+
+![Alt text](./images/sqlunionm.png)
 
 ## 7. Tools Used
 
