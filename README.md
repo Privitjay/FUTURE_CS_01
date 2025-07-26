@@ -157,10 +157,10 @@ i found the number of existing columns by just inputing numbers 1 and i saw the 
 | CSRF Protection   | Use CSRF tokens with same-site cookie flags      |
 | Logging & Alerts  | Monitor unusual activity                         |
 
----
+
 
 ## 10. Conclusion
 
 DVWA successfully demonstrated the impact of common web application vulnerabilities under various security levels. The hands-on testing reinforces best practices in secure coding, vulnerability mitigation, and the need for continuous security assessments in real-world applications.
 
----
+
