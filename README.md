@@ -109,16 +109,16 @@ google.com | dir && systeminfo
 
 ![Alt text](./images/systeminfo.png)
 
+
+
+### 6.4 🧨 SQL Injection
+
 ```bash
 first i tested the login page for a potential sql error with just closing the  syntax | ' and this created the error seen below and this let me know there was an error shown and a possilbe potential for a code injection
 ```
 
-![Alt text](./images/systeminfo.png)
+![Alt text](./images/image.png)
 ---
-
-### 6.4 🧨 SQL Injection
-
-
 
 ## 7. Tools Used
 
