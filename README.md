@@ -129,7 +129,7 @@ i found the number of existing columns by just inputing numbers 1 and i saw the 
 ---
 
 ```bash
-'UNION SELECT users,passwords from users#
+('UNION SELECT users,passwords from users#)
 ---
 
 [Alt text](./images/sqlunion.png)
