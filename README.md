@@ -121,10 +121,16 @@ first i tested the login page for a potential sql error with just closing the  s
 
 ```bash
 In easy mode i ran ( 1' OR '1'='1)
-
-![Alt text](./images/image.png)
 ```
+![Alt text](./images/sqleasy.png)
+
+i found the number of existing columns by just inputing numbers 1 and i saw the two colums name and surname but one can also find this by inputing ' ORDER BY 1 and change numbers until failure, and that tells how manys columns are there.
+
+```bash
+'UNION SELECT users,passwords from users#
 ---
+
+[Alt text](./images/sqlunion.png)
 
 ## 7. Tools Used
 
